@@ -35,7 +35,11 @@ if (git clone "https://github.com/dw-0/kiauh.git" "${KIAUH_SRCDIR}"); then
  find "${KIAUH_SRCDIR}" -type f -name "*.sh" -exec sed -i -E \
   's|\bgit clone\b[[:space:]]+"([^"]+)"[[:space:]]+"([^"]+)"|git_clone "\1" "\2"|g' {} \;
 
+ rm -rf "${KIAUH_FIX_SRCDIR}"
+ 
  echo "Fix complete !"
+ echo "Run ./kiauh/kiauh.sh"
+ 
 else
  echo "Error: No download Kiauh repository!!!"
 fi
