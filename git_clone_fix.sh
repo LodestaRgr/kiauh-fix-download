@@ -4,6 +4,9 @@ git_clone() {
 
   echo "-- Apply KIAUH Fix Download -- by LodestaRgr --"
 
+  # Уберём ".git" в конце, если оно есть
+  repo="$(echo "$repo" | sed 's|\.git$||')"
+  
   # Определяем папку на уровень выше
   local branch_home
   branch_home="$(dirname "$branch")"
