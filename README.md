@@ -32,7 +32,7 @@ cd ~ && git clone https://github.com/LodestaRgr/kiauh-fix-download.git
 ```
 
 * **Step 3:** \
-
+Make a script executable by every user on the system
 ```shell
 chmod +x ./kiauh-fix-download/kiauh-fix-download.sh
 ```
