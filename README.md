@@ -1,7 +1,7 @@
 <p align="center">
   <a>
     <img src="https://raw.githubusercontent.com/dw-0/kiauh/master/resources/screenshots/kiauh.png" alt="KIAUH logo" height="181">
-    <h1 align="center">KIAUH fix Download</h1>
+    <h1 align="center">KIAUH fix Download for bash</h1>
   </a>
 </p>
 
